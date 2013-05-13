@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Zabytki Kępna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/fixes.css" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="js/leaflet/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="js/leaflet/leaflet.ie.css" /><![endif]-->
+    <script src="js/leaflet/leaflet.js"></script>
+    <script src="js/leaflet/leaflet-hash.js"></script>
+    
+    <script src="js/jquery.js"></script>
+  </head>
+
+  <body>  
+    <div class="container">
+    <a id="map-loading" style="display: none;"><img src="img/loading.gif" alt="Wczytywanie..."/></a>
+
+    <div class="row">
+        <div class="span9" id="indoor-map">
+            <div id="map-container"><div id="map"></div></div>
+        </div>
+        <div class="span3">
+            <div></div>
+        </div>
+      </div>   
+      <hr>
+      <footer>
+          <div class="row">
+            <div class="span6">
+            <p>© 2013</p>
+            </div>
+          </div>
+      </footer>
+    </div> <!-- /container -->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="info.js"></script>
+  </body>
+</html>
+
