@@ -6,7 +6,7 @@ body {
 * Map
 */
 #map-container {
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
@@ -45,6 +45,10 @@ body {
 .leaflet-control-zoom-fullscreen {
     background-image: url(../js/leaflet/images/fullscreen.png);
     padding: 3px;
+}
+
+.leaflet-popup-content {
+    width: 400px !important;
 }
 
 /*
